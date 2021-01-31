@@ -1,0 +1,32 @@
+{
+  "name": "comparison-tech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "application.js",
+  "scripts": {
+    "test": "mocha --config './test/.mocharc.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^7.0.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-healthcheck": "^0.1.0",
+    "multer": "^1.4.2",
+    "pouchdb": "^7.2.2",
+    "pouchdb-adapter-memory": "^7.2.2",
+    "pouchdb-find": "^7.2.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "faker": "^5.2.0",
+    "mocha": "^8.2.1",
+    "nock": "^13.0.7",
+    "sinon": "^9.2.4",
+    "sinon-chai": "^3.5.0",
+    "supertest": "^6.1.3"
+  }
+}
